@@ -1,5 +1,5 @@
 dnl /**
-dnl * Copyright (C) 2016 Verizon. All Rights Reserved.
+dnl * Copyright (C) 2021 Edgecast Inc. All Rights Reserved.
 dnl *
 dnl * Licensed under the Apache License, Version 2.0 (the "License");
 dnl * you may not use this file except in compliance with the License.

@@ -5,7 +5,7 @@ namespace ECToken3\Rules;
 use Respect\Validation\Rules\AbstractRule;
 
 /**
- * Validate against Verizon ECToken valid country code list
+ * Validate against ECToken valid country code list
  */
 class ECCountryCode extends AbstractRule {
 
