@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Copyright (C) 2021 Edgecast Inc. All Rights Reserved.
+* Copyright (C) 2021 Edgio Inc. All Rights Reserved.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ $params = "ec_secure=1&ec_expire=1185943200&ec_clientip=111.11.111.11&ec_country
 if (extension_loaded('ectoken')){
     $token = ectoken_encrypt_token($key, $params);
 } else {
-    trigger_error('The EdgeCast Token module could not be loaded.', E_USER_ERROR);
+    trigger_error('The Edgio Token module could not be loaded.', E_USER_ERROR);
 }
 
 echo $token;

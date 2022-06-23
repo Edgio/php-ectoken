@@ -1,4 +1,4 @@
-EdgeCast Token Authentication extension for PHP
+Edgio Token Authentication extension for PHP
 ===============================================
 
 Files included in this release:
@@ -23,7 +23,7 @@ Usage:
 PHP:
 ectoken_encrypt_token($key, $string);  // generate a token
 
-Follow the instructions in the EdgeCast Token Authentication 1.4 guide. Pass the above function your key as the first parameter ($key), and all of your token authentication parameters as the second ($string). ectoken_encrypt_token or ectoken_generate will return your token as a string. On error this function will return null, and in most cases output the error to your php ERROR_LOG. Please note that in this release the maximum length of $string is 256 characters.
+Follow the instructions in the Edgio Token Authentication 1.4 guide. Pass the above function your key as the first parameter ($key), and all of your token authentication parameters as the second ($string). ectoken_encrypt_token or ectoken_generate will return your token as a string. On error this function will return null, and in most cases output the error to your php ERROR_LOG. Please note that in this release the maximum length of $string is 256 characters.
 
 Example:
 <?php

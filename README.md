@@ -1,6 +1,6 @@
 # Native PHP ECToken Generator
 
-This is a native PHP implementation of the EdgeCast Token Generator that does
+This is a native PHP implementation of the Edgio Token Generator that does
 not require a PHP extension to operate, making it suitable for environments in
 which PHP extensions are not available.
 

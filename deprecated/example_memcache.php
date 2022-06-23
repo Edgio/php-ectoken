@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Copyright (C) 2021 Edgecast Inc. All Rights Reserved.
+* Copyright (C) 2021 Edgio Inc. All Rights Reserved.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ if (extension_loaded('memcache')){
             // memcached needs that converted to the local time zone.
             $memcache->set($mc_key, $token, date(intval($expires), 'U') );
         } else {
-            trigger_error('The EdgeCast Token module could not be loaded.', E_USER_ERROR);
+            trigger_error('The Edgio Token module could not be loaded.', E_USER_ERROR);
         }
     }
 } else {

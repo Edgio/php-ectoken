@@ -1,6 +1,6 @@
 {
     "name": "verizon-digital/php-ectoken",
-    "description": "EdgeCast Token Generator for PHP",
+    "description": "Edgio Token Generator for PHP",
     "type": "library",
     "license": "http://www.apache.org/licenses/LICENSE-2.0",
     "require": {
